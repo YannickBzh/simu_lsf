@@ -1,0 +1,30 @@
+/* ACCORDEON */
+.accordion-lsf { border: none;}
+.card-body-lsf h3 { font-size: 14px; color: #5D93FF; text-transform: capitalize;}
+.button-accordion-lsf { height: 80px; background-color: #fff; color:#5D93FF; border-radius: 5px; padding-top: 0; padding-bottom: 0; border-color: #EAF1FF;}
+.button-accordion-lsf:not(:disabled):not(.disabled):active, .button-accordion-lsf:hover, .button-accordion-lsf:visited, .button-accordion-lsf:focus {background-color: #fff; color:#5D93FF; border-color: #EAF1FF; -webkit-box-shadow:#138496; box-shadow: #138496;}
+.button-accordion-lsf-visible { background-color: #5D93FF; color:#fff;}
+.button-accordion-lsf-visible:not(:disabled):not(.disabled):active, .button-accordion-lsf-visible:hover, .button-accordion-lsf-visible:visited, .button-accordion-lsf-visible:focus {background-color: #5D93FF; border-color: #EAF1FF; -webkit-box-shadow:#138496; box-shadow: #138496;}
+.card-header-lsf {background-color: none; border-bottom: none;}
+
+/* FORMULAIRE GÉNÉRAL */
+.btn-contact { background-color: #5D93FF; color: #fff; border: none;}
+
+/* SIDEBAR */
+.btn-contact { background-color: #EAF1FF; color: #5D93FF; border: none;}
+.inputPromo { padding-right: 0; }
+.submitPromo { padding-left: 5px;}
+
+/* FORMULES */
+.group-text-lsf { background-color: transparent; border: none;}
+
+/* EVERYWHERE */
+.blue-text { color: #5D93FF;}
+.white-text {color: #fff;}
+
+/* LOCATION OU ACHAT */
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #fff;
+    background-color: #5d93FF;
+}

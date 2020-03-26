@@ -1,0 +1,10 @@
+<?php
+include_once('../define.php');
+include_once('Database.class.php');
+include_once('Secteurs_activites.class.php');
+include_once('Formules.class.php');
+include_once('Configuration.class.php');
+include_once('Fonctionnalites.class.php');
+include_once('Prospects.class.php');
+include_once('Link_config_fonctionnalites.class.php');
+include_once('CodePromo.class.php');

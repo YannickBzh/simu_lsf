@@ -1,0 +1,34 @@
+liste des taches:
+
+ok - verifier location ou achats selectionné
+ok - si location, vérifier nb de mois selectionnés
+ok - remplir table configuration=
+ - formuleId
+ - date
+ - type
+ - nb mensualité si type 1
+ - hebergement et maintenance si type 2
+- si achat, remplir hébergement et maintenance selon retour internaute
+ok - remplir config validée sur ligne du prospect en cours
+ok - remplir configId
+
+
+ok - remplir la table link config fonctionnalites=
+    - configId
+    - fonctId
+
+ok - faire modifier le prix en f° du nombre de mensualités
+
+- afficher les infos en page recap=
+    ok - recupérer l'id prospect, faire un appel en bdd puis recupérer l'id config
+    - si pas d'id config retour en page d'accueil
+    ok - sinon appel bdd configuration on récupère l'id formule, le type, si type 1 le nb de mensualités, sinon l'hébergement et la maintenance
+    ok - puis on va chercher si des fonctionnalités ont été selectionnées, appel bdd avec l'id config 
+    ok si retour positif, on parcours le tableau et on récupère toutes les id de fonctionnalités
+    ok on appel pour chaque id récupérée la bdd dans la table fonctionnalités le nom et la description courte
+    ok - formule
+    ok - liste des fonctionnalités
+    ok - choix type 
+    - prix par mois ou prix achat:
+        ok - renseigner le prix total dans la table configuration
+        ok - si location prendre prix total (mensualités * nb de mois)
